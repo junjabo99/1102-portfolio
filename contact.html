@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; 
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/b7/USC_Talamban_Campus.jpg'); 
+            background-size: cover; 
+            background-position: center; /
+            position: relative; 
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px; 
+            color: white; 
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            width: 80%; 
+            max-width: 800px; 
+            background: rgba(255, 255, 255, 0.8); 
+            border-radius: 8px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            position: relative; 
+            z-index: 1; 
+        }
+        .column {
+            flex: 1; 
+            padding: 20px; 
+            border-right: 1px solid #ccc; 
+        }
+        .column:last-child {
+            border-right: none; 
+        }
+        .row {
+            display: flex;
+            justify-content: space-between; 
+            margin-bottom: 10px; 
+        }
+    </style>
+</head>
+<body>
+
+<h1>CONTACT</h1>
+
+<div class="container">
+    <div class="column">
+        <div class="row"><strong>Person</strong></div>
+        <div class="row">Papi</div>
+        <div class="row">Mama</div>
+        <div class="row">USC</div>
+    </div>
+    <div class="column">
+        <div class="row"><strong>Contact</strong></div>
+        <div class="row">09123456789</div>
+        <div class="row">09321654987</div>
+        <div class="row">Trunkline connecting all departments</div>
+        <div class="row">+63-32-230-0100 (Talamban Campus)</div>
+        <div class="row">+63-32-401-2300 (Downtown Campus)</div>
+    </div>
+</div>
+
+</body>
+</html>
